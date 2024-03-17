@@ -1,35 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import Age from "./Age";
-// import project1 from "../images/project1.jpg";
-
+import farmingBackground from "../Image/farmingBackground.jpg"; // Import your farming background image
+import natural from "../Image/natural.jpeg";
 const TextForm = (props) => {
   return (
     <nav
-      className="navbar navbar-expand-lg  bg-info text-dark"
-      data-bs-theme="blue" style={{fontFamily:'Antiqua' }}
+      className="navbar navbar-expand-lg bg-info text-dark"
+      style={{
+        fontFamily: 'Antiqua',
+        backgroundImage: `url(${natural})`, // Apply the farming background image
+        backgroundSize: 'cover',
+      }}
     >
       <div className="container">
-        
-        {/* <img
-          src={project1}
-          className="spinner-border text-light "
-          style={{margin: "auto",width: "50px", height: "50px", objectFit: "cover", border: "2px solid #fff", boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)"}}
-          alt=""/>
-        */}
-
-         {/* <Link className="navbar-brand" to="/home">Rahul </Link>
-         <button
-          className="navbar-toggler btn btn-outline-primary"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        > 
-          <span className="navbar-toggler-icon"></span>
-        </button>*/}
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
@@ -43,17 +26,15 @@ const TextForm = (props) => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link " to="/details" >
+              <Link className="nav-link " to="/details">
                 Contact US
               </Link>
             </li>
-
             <li className="nav-item">
               <Link className="nav-link btn-outline-primary" to="/marketlist">
                 Market
               </Link>
             </li>
-
             <li className="nav-item">
               <Link className="nav-link " aria-disabled="true" to="/product">
                 Product
@@ -110,7 +91,6 @@ const TextForm = (props) => {
           </form>
         </div>
       </div>
-      {/* <div class="fixed-bottom">8888888888888888888888</div> */}
     </nav>
   );
 };

@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { Table ,Button} from "react-bootstrap";
 import { Container, Row, Col } from "reactstrap";
 import { useNavigate, useParams } from "react-router-dom";
-import farm_08 from "../Image/farm_08.jpeg";
+
 
 
 function Market() {
@@ -46,7 +46,7 @@ function Market() {
 
   return (
     <>
-      <Container fluid style={{ backgroundImage: `url(${farm_08})`, backgroundAttachment: "fixed" }}>
+      <Container fluid>
         <Row>
           <Col md="6">
             <div>
@@ -76,6 +76,8 @@ function Market() {
         </Row>
       </Container>
      <div style={{textAlign:"center",padding:"100px"}}> 
+     
+     
      <br />
      <Button
         variant="primary"
