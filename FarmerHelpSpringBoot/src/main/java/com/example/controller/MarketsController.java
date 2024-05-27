@@ -28,6 +28,8 @@ public class MarketsController {
 	@Autowired
 	private MarketsServicesimpl marketservice;
 	
+
+	
 	
 	@GetMapping(value = "api/market")
 	public List<Markets> getAllMarketList(){
@@ -46,11 +48,11 @@ public class MarketsController {
     }
 	
 	@PostMapping("api/market")
-	public void addMarktes(@RequestBody Markets mkr) {
+	public ResponseEntity<String> addMarktes(@RequestBody Markets mkr) {
 		
 		marketservice.addMarket(mkr);
 		
-		//return ResponseEntity.ok("Data Saved");
+		return ResponseEntity.ok("Data Saved");
 		
 	}
 	
