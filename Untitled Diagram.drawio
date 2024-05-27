@@ -1,0 +1,61 @@
+<mxfile host="app.diagrams.net" modified="2024-05-27T05:38:16.583Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="luyCeZM9tSys9FSFBEo5" version="24.4.8" type="github">
+  <diagram name="Page-1" id="K72RmQp6-IoOSPWZpVq8">
+    <mxGraphModel dx="1050" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JbbPWGM87C58Qq-8hqNS-1" value="Farmers" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JbbPWGM87C58Qq-8hqNS-2" value="Vehicals" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JbbPWGM87C58Qq-8hqNS-3" value="Markets" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JbbPWGM87C58Qq-8hqNS-4" value="Buyer" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JbbPWGM87C58Qq-8hqNS-5" value="ID" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="60" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JbbPWGM87C58Qq-8hqNS-6" value="Farmers Name" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="40" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JbbPWGM87C58Qq-8hqNS-7" value="Product" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="30" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JbbPWGM87C58Qq-8hqNS-8" value="City" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="10" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JbbPWGM87C58Qq-8hqNS-9" value="Products" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JbbPWGM87C58Qq-8hqNS-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="JbbPWGM87C58Qq-8hqNS-1" target="JbbPWGM87C58Qq-8hqNS-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="300" as="sourcePoint" />
+            <mxPoint x="560" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JbbPWGM87C58Qq-8hqNS-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="JbbPWGM87C58Qq-8hqNS-1" target="JbbPWGM87C58Qq-8hqNS-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="300" as="sourcePoint" />
+            <mxPoint x="560" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JbbPWGM87C58Qq-8hqNS-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.57;entryY=1.04;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JbbPWGM87C58Qq-8hqNS-1" target="JbbPWGM87C58Qq-8hqNS-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="300" as="sourcePoint" />
+            <mxPoint x="560" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JbbPWGM87C58Qq-8hqNS-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="JbbPWGM87C58Qq-8hqNS-1" target="JbbPWGM87C58Qq-8hqNS-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="300" as="sourcePoint" />
+            <mxPoint x="560" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
